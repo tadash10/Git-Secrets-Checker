@@ -1,0 +1,31 @@
+# EditorConfig helps developers define and maintain consistent
+# coding styles between different editors and IDEs
+
+# Top-most EditorConfig file
+root = true
+
+# Unix-style newlines with a newline ending every file
+[*]
+end_of_line = lf
+insert_final_newline = true
+
+# Matches all files in the scripts/ directory
+[scripts/**]
+indent_style = space
+indent_size = 2
+
+# Matches all shell scripts in the repository
+[*.sh]
+charset = utf-8
+trim_trailing_whitespace = true
+insert_final_newline = true
+indent_style = space
+indent_size = 2
+
+#This .editorconfig file defines consistent coding styles for the Git Secrets Checker repository, including settings for newline characters, whitespace, and indentation. The file is organized into three main sections:
+
+    [*]: This section defines settings for all files in the repository.
+    [scripts/**]: This section defines settings for all files in the scripts/ directory.
+    [*.sh]: This section defines settings for all shell scripts in the repository.
+
+By using an .editorconfig file, you can help ensure that all contributors to the project are using the same coding styles, regardless of which editor or IDE they are using.
