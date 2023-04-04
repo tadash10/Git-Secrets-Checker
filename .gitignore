@@ -1,1 +1,24 @@
+.gitignore file:
 
+bash
+
+# Ignore log files
+log/
+
+# Ignore any output files
+output/
+
+# Ignore any backup files
+*.bak
+
+# Ignore any temporary files
+*.tmp
+
+# Ignore any files in the build directory
+build/
+
+# Ignore any files in the vendor directory
+vendor/
+
+# Ignore the script itself
+git-secrets-checker.sh
