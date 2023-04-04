@@ -5,3 +5,15 @@ os:
 
 script:
   - bash test.sh
+#To add the .travis.yml file to your repository and configure Travis CI to run tests automatically, you can follow these steps:
+
+    Create a .travis.yml file in the root directory of your repository.
+    Copy and paste the example configuration provided in my previous message.
+    Modify the script directive to run the actual test script for your repository.
+    Commit the changes and push them to your repository on GitHub.
+    Sign up for an account on Travis CI if you don't already have one.
+    Connect Travis CI to your GitHub account and select the repository you want to enable automatic testing for.
+    Configure any additional settings or environment variables as needed.
+    Trigger a new build on Travis CI to verify that the tests are running successfully.
+
+If you run into any issues, be sure to consult the Travis CI documentation or ask for help from the Travis CI community.
